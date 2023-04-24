@@ -93,14 +93,3 @@
 
 
 
-Console.WriteLine("Введите трехзначное число");
-int num = Convert.ToInt32(Console.ReadLine());
-
-if (num > 99)
-{
-    while (num >= 1000) {
-        num = num / 10;
-    }
-
-    Console.WriteLine(num % 10);
-}
