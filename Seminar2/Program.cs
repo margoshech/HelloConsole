@@ -112,3 +112,19 @@
 // //256 / 100
 
 // Console.WriteLine(res);
+
+// Console.WriteLine("Введите число :");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int count = 0;
+// int i = num;
+
+// while (i > 99) {
+//     i /= 10;
+//     count++;
+// }
+
+// int digit = i % 10;
+// int fullDigital = Convert.ToInt32(digit * Math.Pow(10, count));
+// int result = num - fullDigital;
+
+// Console.WriteLine(result);
